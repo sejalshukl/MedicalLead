@@ -9,6 +9,7 @@ use Laravel\Sanctum\Sanctum;
 
 class LogoutTest extends TestCase
 {
+    
     use RefreshDatabase;
 
     public function test_authenticated_user_can_logout()
