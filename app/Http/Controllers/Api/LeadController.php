@@ -21,27 +21,7 @@ class LeadController extends Controller
     }
 
     /**
-     * @OA\Post(
-     *      path="/api/appointments",
-     *      tags={"Leads"},
-     *      summary="Create a new appointment request",
-     *      @OA\RequestBody(
-     *          required=true,
-     *          @OA\JsonContent(
-     *              required={"patient_name","email","phone","country","medical_issue","preferred_date"},
-     *              @OA\Property(property="patient_name", type="string"),
-     *              @OA\Property(property="email", type="string", format="email"),
-     *              @OA\Property(property="phone", type="string"),
-     *              @OA\Property(property="country", type="string"),
-     *              @OA\Property(property="medical_issue", type="string"),
-     *              @OA\Property(property="preferred_date", type="string", format="date")
-     *          )
-     *      ),
-     *      @OA\Response(
-     *          response=201,
-     *          description="Successful operation"
-     *      )
-     * )
+   
      */
     public function store(StoreLeadRequest $request)
     {
