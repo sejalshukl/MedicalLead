@@ -2,7 +2,7 @@
 
 A production-ready RESTful API for managing medical leads and appointments, built with Laravel 12.
 
-## 🚀 Features
+##  Features
 
 -   **Authentication**: Secure Token-Based Authentication using Laravel Sanctum.
 -   **RBAC**: Role-Based Access Control for Admins and Coordinators.
@@ -12,7 +12,7 @@ A production-ready RESTful API for managing medical leads and appointments, buil
 -   **Performance**: Database indexing and pagination implemented.
 -   **Architecture**: Service-Repository pattern with Event-Driven design.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Framework**: Laravel 12.x
 -   **Language**: PHP 8.2+
@@ -20,7 +20,7 @@ A production-ready RESTful API for managing medical leads and appointments, buil
 -   **Queue**: Database Driver
 -   **Testing**: PHPUnit / Pest
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1.  **Clone the repository**
     ```bash
@@ -60,7 +60,7 @@ A production-ready RESTful API for managing medical leads and appointments, buil
     php artisan queue:work
     ```
 
-## 🧪 Testing
+## Testing
 
 Run the feature tests to verify the application:
 
@@ -68,7 +68,7 @@ Run the feature tests to verify the application:
 php artisan test
 ```
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 This project follows a **Senior-Level** architecture to ensure scalability and maintainability:
 
@@ -79,7 +79,7 @@ This project follows a **Senior-Level** architecture to ensure scalability and m
 -   **Jobs**: `AssignLeadJob` handles the background processing of lead assignment.
 -   **Resources**: `LeadResource` ensures consistent API response formatting.
 
-## ✅ Compliance Checklist
+## Compliance Checklist
 
 -   [x] **No Business Logic in Controllers**: Moved to Services.
 -   [x] **Queues Implemented**: Used for Lead Assignment.

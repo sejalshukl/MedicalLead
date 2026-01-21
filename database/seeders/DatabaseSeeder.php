@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Admin User',
             'email' => 'admin@example.com',
-            'password' => 'password', // Password is 'password' by default in factory, but good to be explicit or rely on factory default if hashed
+            'password' => 'password', 
             'role' => 'admin',
         ]);
 
