@@ -86,3 +86,10 @@ This project follows a **Senior-Level** architecture to ensure scalability and m
 -   [x] **Validation**: Strict validation using FormRequests.
 -   [x] **Tests**: Comprehensive Feature Tests included.
 -   [x] **Security**: Sanctum & Middleware used.
+
+NOTE:-
+1.  **GitHub Repository Link**: [INSERT GITHUB LINK HERE]
+2.  **Setup Instructions**: See [Setup Instructions](#setup-instructions) section above.
+3.  **Postman Collection / API Manual**: See [API Instruction Manual](api_instruction_manual.md) for detailed request/response examples.
+4.  **Database Migrations**: Located in `database/migrations/`. Run `php artisan migrate` to apply.
+5.  **Architecture Explanation**: See [Architecture Overview](#architecture-overview) section above.
